@@ -3,48 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>我的个人介绍网页</title>
+    <title>Jerome | Personal Website</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="card">
-      <p class="eyebrow">HELLO</p>
-      <h1>你好，我是 Jerome</h1>
-      <p class="intro">
-        我是 Jerome，正在学习 Git、GitHub 和网页开发。这是我的第一个个人介绍网页，也是我开始积累作品集的起点。
-      </p>
+    <div class="page-shell">
+      <header class="site-header">
+        <p class="brand">Jerome</p>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#interests">Interests</a>
+          <a href="#awards">Awards</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
 
-      <section class="section">
-        <h2>关于我</h2>
-        <p>
-          我喜欢一边做项目一边学习新工具，目前正在练习使用 VSCode、Git 和 GitHub，
-          希望把自己的学习过程一步步变成真正能展示出来的作品。
-        </p>
-      </section>
+      <main>
+        <section class="hero">
+          <p class="eyebrow">Personal Website</p>
+          <h1>Jerome</h1>
+          <p class="hero-text">
+            Incoming first-year student in Joint Mathematics &amp; Computing at
+            Imperial College London, interested in Physical and Spatial AI,
+            computer vision, and robotics.
+          </p>
+          <div class="hero-meta">
+            <span>Imperial College London</span>
+            <span>Joint Math &amp; Computing</span>
+            <span>AI / CS</span>
+          </div>
+        </section>
 
-      <section class="section">
-        <h2>我正在学习</h2>
-        <ul>
-          <li>学习 Git 和 GitHub</li>
-          <li>练习使用 VSCode</li>
-          <li>搭建自己的项目作品集</li>
-          <li>制作简单但完整的网页项目</li>
-        </ul>
-      </section>
+        <section class="section" id="about">
+          <h2>About</h2>
+          <p>
+            I am Jerome, an incoming first-year student at Imperial College
+            London in Joint Mathematics &amp; Computing. I am especially
+            interested in building AI systems that connect perception,
+            reasoning, and action in the physical world.
+          </p>
+          <p>
+            My current focus is learning through projects and developing a
+            stronger foundation across machine learning, computer vision,
+            robotics, and mathematically grounded approaches to intelligence.
+          </p>
+        </section>
 
-      <section class="section">
-        <h2>我的目标</h2>
-        <ul>
-          <li>学会独立创建并管理一个项目</li>
-          <li>把项目上传到 GitHub 持续更新</li>
-          <li>慢慢建立自己的开发者主页</li>
-        </ul>
-      </section>
+        <section class="section" id="interests">
+          <h2>Research Interests</h2>
+          <div class="tag-list">
+            <span>Physical AI</span>
+            <span>Spatial AI</span>
+            <span>Computer Vision</span>
+            <span>AI</span>
+            <span>Robotics</span>
+          </div>
+        </section>
 
-      <section class="section">
-        <h2>联系我</h2>
-        <p>GitHub: <a href="https://github.com/lizhanran2008">lizhanran2008</a></p>
-      </section>
-    </main>
+        <section class="section" id="awards">
+          <h2>Awards</h2>
+          <div class="award-list">
+            <article class="award-card">
+              <p class="award-year">2026</p>
+              <h3>Regeneron ISEF Finalist</h3>
+              <p>
+                Global finalist and member of the China Representative Team.
+              </p>
+            </article>
+
+            <article class="award-card">
+              <p class="award-year">2025</p>
+              <h3>China Association for Science and Technology President Award</h3>
+              <p>
+                Awarded at CASTIC 2025, the China Adolescents Science and
+                Technology Innovation Contest.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="contact">
+          <h2>Contact</h2>
+          <p>
+            GitHub:
+            <a href="https://github.com/lizhanran2008">lizhanran2008</a>
+          </p>
+        </section>
+      </main>
+    </div>
   </body>
 </html>

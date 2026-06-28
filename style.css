@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  font-family: "Avenir Next", "PingFang SC", sans-serif;
+  background:
+    radial-gradient(circle at top, #f7e8d0, transparent 35%),
+    linear-gradient(135deg, #f6f2ea, #dce8f2);
+  color: #1f2933;
+}
+
+.card {
+  width: min(720px, 100%);
+  padding: 40px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 20px 60px rgba(31, 41, 51, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  letter-spacing: 0.2em;
+  font-size: 12px;
+  color: #b05a2b;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(32px, 5vw, 52px);
+}
+
+h2 {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.intro,
+.section p,
+li {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.section {
+  margin-top: 28px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+a {
+  color: #0b5cad;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
